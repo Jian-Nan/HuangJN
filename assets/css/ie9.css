@@ -1,0 +1,17 @@
+/*
+	Styles for IE9 suport
+*/
+
+.flex-row {
+	display: block; 
+}
+.flex-row:before,
+.flex-row:after	 {
+	content: '';
+}
+
+.flex-justify > *{
+    display: table-cell !important;
+    width: 1%;
+    text-align: center;
+}
